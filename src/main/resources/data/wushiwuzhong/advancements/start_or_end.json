@@ -1,0 +1,32 @@
+{
+  "parent": "wushiwuzhong:unlock_wushiwuzhong",
+  "display": {
+    "icon": {
+      "item": "wushiwuzhong:wushiwuzhong"
+    },
+    "title": {
+      "translate": "advancements.wushiwuzhong.start_or_end.title"
+    },
+    "description": {
+      "translate": "advancements.wushiwuzhong.start_or_end.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_wushiwuzhong": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wushiwuzhong:wushiwuzhong"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
